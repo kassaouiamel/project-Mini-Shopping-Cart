@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shopping Cart</title>
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="header">
+
+    <!-- Logo panier -->
+    <div class="logo">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <!-- Titre -->
+    <div class="title">
+      <h1>Mini Shopping Cart</h1>
+    </div>
+
+    <!-- Panier à droite -->
+    <div class="cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+
+      <!-- nombre de produits -->
+      <span class="cart-number">3</span>
+    </div>
+
+  </header>
+    <main>
+        <section class="products">
+            <h2>Our Products</h2>
+            <div class="container">
+                <img style="height: 80px;" src="./T-shirt.jpg" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="button">Add to cart</button>
+            </div>
+            <div class="container">
+                <img style="height: 80px;" src="./T-shirt.jpg" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="button">Add to cart</button>
+            </div>
+            <div class="container">
+                <img style="height: 80px;" src="./T-shirt.jpg" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="button">Add to cart</button>
+            </div>
+            <div class="container">
+                <img style="height: 80px;" src="./T-shirt.jpg" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="button">Add to cart</button>
+            </div>
+        </section>
+
+        <section class="your-cart">
+            <h2>Your Cart</h2>
+            <div class="container">
+                <img style="height: 80px;" src="./T-shirt.jpg" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="btn-Remove">Remove</button>
+            </div>
+            <div class="container">
+                <img style="height: 80px;" src="./T-shirt.jpg" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="btn-Remove">Remove</button>
+            </div>
+            
+            <div class="container">
+                <p class="total">Total</p>
+                <p class="prix">200 dt</p>
+            </div>
+
+            <button class="button-clear">Clear Cart</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
